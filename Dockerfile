@@ -1,6 +1,6 @@
 FROM alpine:3.16
 
-ENV CLAM_VERSION=0.105.0
+ENV CLAM_VERSION=0.104.3-r0
 
 RUN apk add --no-cache clamav=$CLAM_VERSION clamav-libunrar=$CLAM_VERSION
 
